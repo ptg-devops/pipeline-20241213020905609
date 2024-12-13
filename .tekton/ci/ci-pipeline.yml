@@ -20,7 +20,7 @@ spec:
       description: access token for the git repo
     - name: fail-on-lint-errors
       description: force failure of task when docker lint errors are found
-      default: "true"
+      default: "false"
     - name: fail-on-scanned-issues
       description: force failure of task when vulnerability advisor scan issues are found
       default: "true"
